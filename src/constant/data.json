@@ -1,6 +1,144 @@
 {
     "header": {
-        "logo":"",
-        "headerItems":""
+        "logo":"/images/logo.svg",
+        "close":"/images/icon-close.svg",
+        "hamburger":"/images/icon-hamburger.svg",
+        "headerItems":[
+            {
+                "id": 1,
+                "label": "About",
+                "href": "#"
+            },
+            {
+                "id": 2,
+                "label": "Careers",
+                "href": "#"
+            },
+            {
+                "id": 3,
+                "label": "Events",
+                "href": "#"
+            },
+            {
+                "id": 4,
+                "label": "Products",
+                "href": "#"
+            },
+            {
+                "id": 5,
+                "label": "Support",
+                "href": "#"
+            }
+        ]
+    },
+    "hero": {
+        "background": {
+            "mob": "bg-hero-mob",
+            "desk":"bg-hero-desk"
+        },
+        "message": "immersive expierences that deliver"
+    },
+    "overview": {
+        "bg-image": {
+            "desk":"bg-interactive-desk",
+            "mob": "bg-interactive-mob"
+        },
+        "heading": " The leader in interactive VR",
+        "paragraph": "Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand."
+    },
+    "creations": {
+        "title":"our creations",
+        "btnText": "see all",
+        "creationItems": [
+            {
+                "id": 6,
+                "title": "Deep earth",
+                "bgImage": {
+                    "desk": "bg-deep-earth-desk",
+                    "mob": "bg-deep-earth-mob"
+                }
+            },
+            {
+                "id": 7,
+                "title": "Night arcade",
+                "bgImage": {
+                    "desk": "bg-night-arcade-desk",
+                    "mob": "bg-night-arcade-mob"
+                }
+            },
+            {
+                "id": 8,
+                "title": "Soccer team VR",
+                "bgImage": {
+                    "desk": "bg-soccer-desk",
+                    "mob": "bg-soccer-mob"
+                }
+            },
+            {
+                "id": 9,
+                "title": "The grid",
+                "bgImage": {
+                    "desk": "bg-grid-desk",
+                    "mob": "bg-grid-mob"
+                }
+            },
+            {
+                "id": 10,
+                "title": "From up above VR",
+                "bgImage": {
+                    "desk": "bg-above-desk",
+                    "mob": "bg-above-mob"
+                }
+            },
+            {
+                "id": 11,
+                "title": "Pocket borealis",
+                "bgImage": {
+                    "desk": "bg-pocket-desk",
+                    "mob": "bg-pocket-mob"
+                }
+            },
+            {
+                "id": 12,
+                "title": "The curiosity",
+                "bgImage": {
+                    "desk": "bg-curiosity-desk",
+                    "mob": "bg-curiosity-mob"
+                }
+            },
+            {
+                "id": 13,
+                "title": "Make it fisheye",
+                "bgImage": {
+                    "desk": "bg-fisheye-desk",
+                    "mob": "bg-fisheye-mob"
+                }
+            }
+        ]
+    },
+    "footer":{
+        "socials":[
+            {
+                "id": 1,
+                "href": "#",
+                "icon": "/images/icon-facebook.svg"
+            },
+            {
+                "id": 2,
+                "href": "#",
+                "icon": "/images/icon-twitter.svg"
+            },
+            {
+                "id": 3,
+                "href": "#",
+                "icon": "/images/icon-pinterest.svg"
+            },
+            {
+                "id": 4,
+                "href": "#",
+                "icon": "/images/icon-instagram.svg"
+            }
+        ],
+        "copy-right":"© 2021 Loopstudios. All rights reserved."
     }
 }
