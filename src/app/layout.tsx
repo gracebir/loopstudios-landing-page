@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={alata.className}>
+      <body suppressHydrationWarning={true} className={alata.className}>
         <Header/>
         {children}
         <Footer/>
