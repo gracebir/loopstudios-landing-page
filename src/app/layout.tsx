@@ -1,6 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import {  Alata } from 'next/font/google'
+import { Alata } from 'next/font/google'
 import Header from './_components/Header'
 import Footer from './_components/Footer'
 
@@ -19,9 +19,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body suppressHydrationWarning={true} className={alata.className}>
-        <Header/>
+        <Header />
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   )
