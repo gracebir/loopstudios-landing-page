@@ -9,9 +9,9 @@ type linkProps = {
 
 const LinkElement: FC<linkProps> = ({href, text}) => {
   return (
-    <Link className={''} href={href}>
+    <Link className="text-base font-bold gap-2 flex flex-col items-center" href={href}>
       {text}
-      <span></span>
+      <div className='border-2 w-8 rounded-3xl'/>
     </Link>
   )
 }
