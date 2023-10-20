@@ -39,5 +39,8 @@ const config: Config = {
     },
   },
   plugins: [],
+  variants: {
+    display: ["group-hover"]
+  }
 }
 export default config
