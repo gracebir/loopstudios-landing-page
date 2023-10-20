@@ -9,4 +9,8 @@
     --black: hsl(0, 0%, 0%);
     --white: hsl(0, 0%, 100%);
   }
+
+  .wrapper-container{
+    @apply container mx-auto lg:px-0 px-6;
+  }
 }
