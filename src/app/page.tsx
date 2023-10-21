@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="w-full">
      <Hero/>
-     <div className="wrapper-container py-6 lg:py-10">
+     <div className="wrapper-container lg:py-36 py-20">
       <Interactive/>
       <Creations/>
      </div>
