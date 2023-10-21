@@ -53,66 +53,42 @@
             {
                 "id": 6,
                 "title": "Deep earth",
-                "bgImage": {
-                    "desk": "bg-deep-earth-desk",
-                    "mob": "bg-deep-earth-mob"
-                }
+                "bgImage": "lg:bg-deep-earth-desk bg-deep-earth-mob"
             },
             {
                 "id": 7,
                 "title": "Night arcade",
-                "bgImage": {
-                    "desk": "bg-night-arcade-desk",
-                    "mob": "bg-night-arcade-mob"
-                }
+                "bgImage": "lg:bg-night-arcade-desk bg-night-arcade-mob"
             },
             {
                 "id": 8,
                 "title": "Soccer team VR",
-                "bgImage": {
-                    "desk": "bg-soccer-desk",
-                    "mob": "bg-soccer-mob"
-                }
+                "bgImage": "lg:bg-soccer-desk bg-soccer-mob"
             },
             {
                 "id": 9,
                 "title": "The grid",
-                "bgImage": {
-                    "desk": "bg-grid-desk",
-                    "mob": "bg-grid-mob"
-                }
+                "bgImage": "lg:bg-grid-desk bg-grid-mob"
             },
             {
                 "id": 10,
                 "title": "From up above VR",
-                "bgImage": {
-                    "desk": "bg-above-desk",
-                    "mob": "bg-above-mob"
-                }
+                "bgImage": "lg:bg-above-desk bg-above-mob"
             },
             {
                 "id": 11,
                 "title": "Pocket borealis",
-                "bgImage": {
-                    "desk": "bg-pocket-desk",
-                    "mob": "bg-pocket-mob"
-                }
+                "bgImage": "lg:bg-pocket-desk bg-pocket-mob"
             },
             {
                 "id": 12,
                 "title": "The curiosity",
-                "bgImage": {
-                    "desk": "bg-curiosity-desk",
-                    "mob": "bg-curiosity-mob"
-                }
+                "bgImage": "lg:bg-curiosity-desk bg-curiosity-mob"
             },
             {
                 "id": 13,
                 "title": "Make it fisheye",
-                "bgImage": {
-                    "desk": "bg-fisheye-desk",
-                    "mob": "bg-fisheye-mob"
-                }
+                "bgImage": "lg:bg-fisheye-desk bg-fisheye-mob"
             }
         ]
     },
