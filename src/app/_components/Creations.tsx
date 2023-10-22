@@ -2,6 +2,7 @@ import React, { FC } from 'react'
 import Title from './ELements/Title'
 import data from '@/constant/data.json'
 import { Josefin_Sans } from 'next/font/google'
+import CreationCard from './CreationCard'
 
 const josefin = Josefin_Sans({ subsets: ['latin'], weight: ['300'] })
 
@@ -18,12 +19,14 @@ const Creations = () => {
   const creation = data.creations
   return (
     <section className={`flex flex-col ${josefin.className} items-center gap-8 lg:gap-10`}>
-      <div className='flex justify-between items-center'>
+      <div className='flex justify-between items-center lg:flex-1 lg:w-full'>
         <Title text={creation.title} />
         <Button isMob={false} text={creation.btnText} />
       </div>
-      <div className='w-full flex-1 '>
-        grid area
+      <div className='w-full flex-1 grid grid-cols-1 lg:grid-cols-4 gap-6 lg:gap-8'>
+        {creation.creationItems.map(({ id, title, bgImage }) => (
+          <CreationCard font={josefin} key={id} text={title} bgImage={bgImage} />
+        ))}
       </div>
       <Button isMob={true} text={creation.btnText} />
     </section>
