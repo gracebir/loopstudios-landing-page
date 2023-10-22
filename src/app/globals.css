@@ -13,4 +13,8 @@
   .wrapper-container{
     @apply container mx-auto lg:px-0 px-6;
   }
+
+  .footer-container{
+    @apply flex flex-col items-center lg:items-start gap-6 lg:gap-8;
+  }
 }
