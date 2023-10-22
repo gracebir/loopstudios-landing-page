@@ -9,7 +9,6 @@ type creationCardProps = {
 }
 
 const CreationCard: FC<creationCardProps> = ({ text, bgImage, font }) => {
-    console.log(bgImage)
     return (
         <div className={`${font.className} w-full ${bgImage} relative lg:h-[58vh] h-[20vh]  bg-cover bg-no-repeat`}>
             <div className='absolute w-full bg-black bg-opacity-40 top-0 flex flex-col p-6 lg:p-8 justify-end right-0 left-0 bottom-0'>
