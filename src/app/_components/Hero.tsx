@@ -1,8 +1,5 @@
 import React from 'react'
 import data from '@/constant/data.json'
-import { Josefin_Sans } from 'next/font/google'
-
-// const josefin = Josefin_Sans({ subsets: ['latin'], weight: ['300'] })
 
 const Hero = () => {
   const heroInfo = data.hero
