@@ -15,9 +15,9 @@ const Header = () => {
   window.addEventListener('scroll', () => {
     setScrollValue(window.pageYOffset)
   })
-  console.log(scrollValue)
+  
   return (
-    <header className={`fixed left-0 top-0 z-50 right-0 py-9 lg:py-11 ${scrollValue > 200 ? `bg-black`: `bg-none`}`}>
+    <header className={`fixed left-0 top-0 duration-300 z-50 right-0 py-9 lg:py-11 ${scrollValue > 200 ? `bg-black`: `bg-none`}`}>
       <div className='wrapper-container flex justify-between items-center text-white-color'>
         <Link className='z-50' href={'/'}>
           <Image src={navInfo.logo} alt='logo-header' width={200} height={30} />
