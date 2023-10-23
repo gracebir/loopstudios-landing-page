@@ -10,8 +10,8 @@ const Hero = () => {
   return (
     <div className={`bg-hero-mob w-full flex items-center lg:bg-hero-desk bg-no-repeat bg-cover h-[90vh]`}>
       <div className='text-white wrapper-container flex-1'>
-        <div className='sm:w-full md:w-full lg:max-w-[55%] border-2 px-6 py-4 lg:py-5'>
-          <h1 className={`text-4xl font-light leading-none lg:text-[5.5vw] ${josefin.className} uppercase`}>
+        <div className='sm:w-full md:w-full flex flex-col items-start px-6 py-4 lg:py-5'>
+          <h1 className={`font-light hero-text lg:w-1/2 w-full leading-none border px-6 py-4 lg:py-5 ${josefin.className} uppercase`}>
             {heroInfo.message}
           </h1>
         </div>
