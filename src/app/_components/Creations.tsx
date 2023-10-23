@@ -4,8 +4,7 @@ import data from '@/constant/data.json'
 import { Josefin_Sans } from 'next/font/google'
 import CreationCard from './CreationCard'
 
-const josefin = Josefin_Sans({ subsets: ['latin'], weight: ['300'] })
-
+const josefin = Josefin_Sans({ subsets: ['latin'], weight: ['200', '300'] })
 
 const Button: FC<{ text: string, isMob: boolean }> = ({ text, isMob }) => {
   return (

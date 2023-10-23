@@ -53,42 +53,42 @@
             {
                 "id": 6,
                 "title": "Deep earth",
-                "bgImage": "lg:bg-deep-earth-desk bg-deep-earth-mob"
+                "bgImage": "bg-earth"
             },
             {
                 "id": 7,
                 "title": "Night arcade",
-                "bgImage": "lg:bg-night-arcade-desk bg-night-arcade-mob"
+                "bgImage": "bg-nigth-card"
             },
             {
                 "id": 8,
                 "title": "Soccer team VR",
-                "bgImage": "lg:bg-soccer-desk bg-soccer-mob"
+                "bgImage": "bg-soccer"
             },
             {
                 "id": 9,
                 "title": "The grid",
-                "bgImage": "lg:bg-grid-desk bg-grid-mob"
+                "bgImage": "bg-grid"
             },
             {
                 "id": 10,
                 "title": "From up above VR",
-                "bgImage": "lg:bg-above-desk bg-above-mob"
+                "bgImage": "bg-from"
             },
             {
                 "id": 11,
                 "title": "Pocket borealis",
-                "bgImage": "lg:bg-pocket-desk bg-pocket-mob"
+                "bgImage": "bg-pocket"
             },
             {
                 "id": 12,
                 "title": "The curiosity",
-                "bgImage": "lg:bg-curiosity-desk bg-curiosity-mob"
+                "bgImage": "bg-curiosity"
             },
             {
                 "id": 13,
                 "title": "Make it fisheye",
-                "bgImage": "lg:bg-fisheye-desk bg-fisheye-mob"
+                "bgImage": "bg-make-it"
             }
         ]
     },
