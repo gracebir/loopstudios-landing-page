@@ -2,30 +2,86 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-  :root{
+@layer base {
+  :root {
     --very-dark-gray: hsl(0, 0%, 41%);
     --dark-gray: hsl(0, 0%, 55%);
     --black: hsl(0, 0%, 0%);
     --white: hsl(0, 0%, 100%);
   }
 
-  .wrapper-container{
+  .wrapper-container {
     @apply container mx-auto lg:px-0 px-6;
   }
 
-  .footer-container{
+  .footer-container {
     @apply flex flex-col items-center lg:items-start gap-6 lg:gap-8;
   }
 
 }
 
-.bg-earth{
+.bg-earth {
   background-image: url('../../public/images/mobile/image-deep-earth.jpg');
 }
 
+.bg-nigth-card {
+  background-image: url('../../public/images/mobile/image-night-arcade.jpg');
+}
+
+.bg-soccer {
+  background-image: url('../../public/images/mobile/image-soccer-team.jpg');
+}
+
+.bg-grid {
+  background-image: url('../../public/images/mobile/image-grid.jpg');
+}
+
+.bg-from {
+  background-image: url('../../public/images/mobile/image-from-above.jpg');
+}
+
+.bg-pocket {
+  background-image: url('../../public/images/mobile/image-pocket-borealis.jpg');
+}
+
+.bg-curiosity {
+  background-image: url('../../public/images/mobile/image-curiosity.jpg');
+}
+
+.bg-make-it {
+  background-image: url('../../public/images/mobile/image-fisheye.jpg');
+}
+
 @media (min-width: 1024px) {
-  .bg-earth{
-      background-image: url('/images/desktop/image-hero.jpg');
+  .bg-earth {
+    background-image: url('../../public/images/desktop/image-deep-earth.jpg');
+  }
+
+  .bg-nigth-card {
+    background-image: url('../../public/images/desktop/image-night-arcade.jpg');
+  }
+
+  .bg-soccer {
+    background-image: url('../../public/images/desktop/image-soccer-team.jpg');
+  }
+
+  .bg-grid {
+    background-image: url('../../public/images/desktop/image-grid.jpg');
+  }
+
+  .bg-from {
+    background-image: url('../../public/images/desktop/image-from-above.jpg');
+  }
+
+  .bg-pocket {
+    background-image: url('../../public/images/desktop/image-pocket-borealis.jpg');
+  }
+
+  .bg-curiosity {
+    background-image: url('../../public/images/desktop/image-curiosity.jpg');
+  }
+
+  .bg-make-it {
+    background-image: url('../../public/images/desktop/image-fisheye.jpg');
   }
 }
