@@ -17,4 +17,15 @@
   .footer-container{
     @apply flex flex-col items-center lg:items-start gap-6 lg:gap-8;
   }
+
+}
+
+.bg-earth{
+  background-image: url('../../public/images/mobile/image-deep-earth.jpg');
+}
+
+@media (min-width: 1024px) {
+  .bg-earth{
+      background-image: url('/images/desktop/image-hero.jpg');
+  }
 }
