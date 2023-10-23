@@ -1,6 +1,6 @@
 'use client'
 import Image from 'next/image'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import data from '@/constant/data.json'
 import Link from 'next/link'
 import LinkElement from './ELements/LinkElement'
@@ -12,9 +12,11 @@ const Header = () => {
   const [scrollValue, setScrollValue] = useState(0)
 
   // scroll behaviar
-  window.addEventListener('scroll', () => {
-    setScrollValue(window.pageYOffset)
-  })
+  useEffect(()=> {
+    window.addEventListener('scroll', () => {
+      setScrollValue(window.pageYOffset)
+    })
+  },[])
   
   return (
     <header className={`fixed left-0 top-0 duration-300 z-50 right-0 py-9 lg:py-11 ${scrollValue > 200 ? `bg-black`: `bg-none`}`}>
