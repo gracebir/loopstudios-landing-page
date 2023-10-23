@@ -20,6 +20,10 @@
 
 }
 
+.hero-text{
+  font-size: clamp(2em, 6vw, 5em);
+}
+
 .bg-earth {
   background-image: url('../../public/images/mobile/image-deep-earth.jpg');
 }
